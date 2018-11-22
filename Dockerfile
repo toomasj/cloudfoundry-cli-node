@@ -1,4 +1,4 @@
-FROM node:6.9.4
+FROM node:latest
 
 RUN apt-get update
 RUN apt-get install -y ca-certificates uuid-runtime
