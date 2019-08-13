@@ -1,7 +1,7 @@
 FROM node:latest
 
 RUN apt-get update
-RUN apt-get install -y ca-certificates uuid-runtime
+RUN apt-get install -y ca-certificates uuid-runtime git
 
 ADD https://cli.run.pivotal.io/stable?release=linux64-binary /tmp/cf-cli.tgz
 
